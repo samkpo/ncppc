@@ -118,7 +118,7 @@ if $WRITE; then
 	printstuff "Header file (${FNAMES[0]})"
 	sed -e s/SHEET_H/${NAME^^}"_H"/g ${SHEETS[0]} | sed -e s/SHEET/$NAME/g > ${FNAMES[0]}
 	printstuff "Source file (${FNAMES[1]})"
-	sed -e s/SHEED/${NAME,,}/g ${SHEETS[1]} > ${FNAMES[1]}
+	sed -e s/SHEET/${NAME,,}/g ${SHEETS[1]} > ${FNAMES[1]}
 else
 	if $VERBOSE; then
 		echo "Writing to files"
