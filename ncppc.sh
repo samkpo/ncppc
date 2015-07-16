@@ -126,7 +126,7 @@ else
 		sed -e s/SHEET_H/${NAME^^}"_H"/g ${SHEETS[0]} | sed -e s/SHEET/$NAME/g
 		echo "==================="
 		echo -e "\n====Source file (${FNAMES[1]})===="
-		sed -e s/SHEED/${NAME,,}/g ${SHEETS[1]}		
+		sed -e s/SHEET/${NAME,,}/g ${SHEETS[1]}		
 		echo "==================="
 	fi
 fi
