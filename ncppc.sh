@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Must be an absolute dir
-SHEETFOLDER="/home/samk/Programacion/ncppc"
+SHEETFOLDER="/home/dario/Programacion/ncppc"
 
 help(){
 	# display usage if no parameters given
